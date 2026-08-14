@@ -1,0 +1,14 @@
+pluginManagement {
+    def robustaPluginBuild = providers.gradleProperty('robustaPluginBuild')
+
+    if (robustaPluginBuild.isPresent()) {
+        includeBuild(robustaPluginBuild.get())
+    }
+
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'robusta-gradle-groovy-example'
