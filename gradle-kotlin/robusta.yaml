@@ -1,6 +1,6 @@
 format:
-  line_width: 100
-  indent_width: 4
+  line-width: 100
+  indent-width: 4
 
 lint:
   rules:
