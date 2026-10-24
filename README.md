@@ -1,6 +1,6 @@
 # Robusta examples
 
-Runnable Java 17 projects showing how to use [Robusta](https://github.com/ThomasRopke/robusta)
+Runnable Java 17 projects showing how to use [Robusta](https://github.com/robusta-rs/robusta)
 for formatting and linting.
 
 | Project | Build configuration | Status |
