@@ -42,7 +42,7 @@ ROBUSTA_SOURCE=/absolute/path/to/robusta
 
 cd gradle-kotlin
 ./gradlew \
-  "-ProbustaPluginBuild=$ROBUSTA_SOURCE/apps/gradle-plugin" \
+  "-ProbustaPluginBuild=$ROBUSTA_SOURCE/jvm" \
   "-ProbustaExecutable=$ROBUSTA_SOURCE/target/debug/robusta" \
   robustaCheck
 ```

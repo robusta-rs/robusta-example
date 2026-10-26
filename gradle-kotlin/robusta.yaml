@@ -4,6 +4,6 @@ format:
 
 lint:
   rules:
-    modifier-order: error
-    redundant-semicolons: error
-    uppercase-long-suffix: error
+    modifier-order: deny
+    redundant-semicolons: deny
+    uppercase-long-suffix: deny
